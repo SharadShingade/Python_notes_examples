@@ -15,6 +15,7 @@ if os.path.exists("bounding-boxes"):
 os.mkdir("bounding-boxes")
 
 x=01
+y = x
 spatialReference = osr.SpatialReference()
 spatialReference.SetWellKnownGeogCS('WGS84')
 
